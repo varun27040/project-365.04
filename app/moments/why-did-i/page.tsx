@@ -517,15 +517,15 @@ const reasons: Reason[] = [
 
 export default function WhyDidIPage(): React.JSX.Element {
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="relative min-h-screen overflow-hidden bg-[#090510] text-white">
 
       {/* BACKGROUND */}
 
       <div
         className="fixed inset-0 pointer-events-none"
         style={{
-          background:
-            "radial-gradient(circle at 15% 15%, rgba(236,72,153,0.18), transparent 30%), radial-gradient(circle at 85% 20%, rgba(168,85,247,0.18), transparent 30%), radial-gradient(circle at 50% 90%, rgba(244,114,182,0.12), transparent 35%)",
+      background:
+        "linear-gradient(180deg, #090510 0%, #120817 45%, #090510 100%), radial-gradient(circle at 15% 15%, rgba(236,72,153,0.18), transparent 30%), radial-gradient(circle at 85% 20%, rgba(168,85,247,0.18), transparent 30%), radial-gradient(circle at 50% 90%, rgba(244,114,182,0.12), transparent 35%)",    
         }}
       />
 
